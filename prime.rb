@@ -2,6 +2,8 @@ def prime?(number)
   i = number - 1
   if number < 1
     return false
+  elsif number == 1
+    return false
   else
     while i > 1 do
       if (number % i) == 0
