@@ -1,4 +1,3 @@
-# Add  code here!
 def prime?(number)
   i = number - 1
   loop do
