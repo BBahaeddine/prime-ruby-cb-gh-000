@@ -13,4 +13,4 @@ def prime?(number)
   return is_prime
 end
 
-puts prime?(7)
+puts prime?(10)
