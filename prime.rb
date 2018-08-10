@@ -1,15 +1,16 @@
 def prime?(number)
   i = number - 1
+  is_prime = true
   loop do
     if (number % i) == 0
-      return false
+      is_prime = false
     end
     i -= 1
     if i > 1
       break
     end
   end
-  return true
+  return is_prime
 end
 
 puts prime?(90)
