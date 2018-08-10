@@ -4,12 +4,11 @@ def prime?(number)
   i = number - 1
   loop do
     if (number % i) == 0
-      isPrime = false
+      return false
     end
     i -= 1
     if i > 1
       break
     end
   end
-  return isPrime
 end
