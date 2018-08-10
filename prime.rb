@@ -1,13 +1,13 @@
 # Add  code here!
 def prime?(number)
   isPrime = true
-  i = 2
+  i = number - 1
   loop do
     if (number % i) == 0
       isPrime = false
     end
-    i += 1
-    if i == number
+    i -= 1
+    if i > 1
       break
     end
   end
