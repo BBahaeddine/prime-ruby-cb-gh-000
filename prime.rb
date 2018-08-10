@@ -1,15 +1,21 @@
-# Add  code here!
 def prime?(number)
-  isPrime = true
-  i = 2
-  loop do
-    if (number % i) == 0
-      isPrime = false
+  i = number - 1
+  if number < 1
+    return false
+  elsif number == 1
+    return false
+  else
+    while i > 1 do
+      if (number % i) == 0
+        return false
+      end
+      i -= 1
+      # if i > 1
+      #   break
+      # end
     end
-    i += 1
-    if i == number
-      break
-    end
+    return true
   end
-  return isPrime
 end
+
+puts prime?(10)
