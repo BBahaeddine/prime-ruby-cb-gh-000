@@ -12,4 +12,4 @@ def prime?(number)
   return true
 end
 
-puts prime?(7)
+puts prime?(5)
