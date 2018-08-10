@@ -12,4 +12,4 @@ def prime?(number)
   return true
 end
 
-puts prime?(10)
+puts prime?(90)
