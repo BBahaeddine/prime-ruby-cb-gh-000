@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  isPrime = true
+  # isPrime = true
   i = number - 1
   loop do
     if (number % i) == 0
@@ -11,4 +11,5 @@ def prime?(number)
       break
     end
   end
+  return true
 end
